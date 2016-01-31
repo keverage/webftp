@@ -1,0 +1,120 @@
+.qq-uploader {
+	position: relative;
+	width: 100%;
+	min-height: 120px;
+}
+.qq-upload-button {
+	position: absolute !important;
+	top: 90px;
+	width: 200px;
+	padding: 7px 0;
+	text-align: center;
+	font-variant: small-caps;
+	background: #888;
+	border-right: 4px solid #ccc;
+	color: #fff;
+	border-radius: 3px;
+}
+.qq-upload-button-hover {
+	background: #3182C0;
+}
+.qq-upload-button-focus {
+	outline: 1px dotted black
+}
+.qq-upload-drop-area {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 200px;
+	height: 82px;
+	z-index: 2;
+	background: url('../images/blue_arrow_down.png') no-repeat center 85% #888;
+	text-align: center; 
+	display: block !important;
+	border-right: 4px solid #ccc;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+}
+.qq-upload-drop-area span {
+    display: block;
+	position: absolute;
+	top: 7%;
+	width: 100%;
+	font-size: 1em;
+	font-variant: small-caps;
+	color: #fff;
+	cursor: default;
+}
+.qq-upload-drop-area-active {
+	background-color: #3182C0;
+}
+.qq-upload-list {
+	margin: 10px 0 0 250px;
+	padding: 0;
+	list-style: none;
+}
+.qq-upload-list li {
+	margin: 0;
+	padding: 0;
+	line-height: 15px;
+	font-size: 1em;
+}
+.qq-upload-file,
+.qq-upload-spinner,
+.qq-upload-size,
+.qq-upload-cancel,
+.qq-upload-failed-text {
+	margin-right: 7px;
+}
+.qq-upload-file {
+	display: inline-block;
+	min-width: 200px;
+}
+.qq-upload-spinner {
+	position: relative;
+	display: inline-block;
+	height: 15px;
+	vertical-align: text-bottom;
+	width: 100px;
+	border: 1px solid #ddd;
+}
+.qq-upload-bar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #3182c0;
+	height: 15px;
+}
+.qq-upload-size,
+.qq-upload-cancel {
+	display: inline-block !important;
+	font-size: 0.9em;
+	width: 120px;
+	text-align: center;
+}
+.qq-upload-cancel {
+	text-decoration: none;
+	font-variant: small-caps;
+	color: #999;
+	padding: 2px 5px;
+	margin-bottom: 2px;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+}
+.qq-upload-cancel:hover {
+	color: #fff;
+	background: #3182c0;
+	border-color: #3182c0;
+}
+
+.qq-upload-failed-text {
+	display: none;
+}
+.qq-upload-fail .qq-upload-failed-text {
+	display: inline;
+}
